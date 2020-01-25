@@ -1,0 +1,28 @@
+body {
+  background-color: #bbe1fa; }
+
+h1 {
+  color: #5d5b6a;
+  text-align: center; }
+
+footer {
+  background-color: #444; }
+  footer h4 {
+    color: khaki; }
+    footer h4 a {
+      color: #d8c962; }
+  footer p {
+    background: #ffba5a; }
+
+section {
+  background: #ffba5a; }
+  section h2 {
+    background: #c0ffb3; }
+  section p {
+    background: #52de97; }
+
+table {
+  border: 10px;
+  background-color: red; }
+
+/*# sourceMappingURL=estilos.css.map */

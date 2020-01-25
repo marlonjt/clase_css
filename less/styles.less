@@ -1,0 +1,23 @@
+//@color1:#0f4c75;
+@texto:#2c786c;
+@sumaC: #697c37+#004445;
+
+h1{
+    .estilo-texto(#eb4d55,20px,#e4f9ff,1px)
+}
+p{
+    color: @texto;
+}
+
+h2{
+    color: @sumaC;
+}
+h3{
+    .estilo-texto()
+}
+.estilo-texto(@color1:#0f4c75;@pad:10px;@fondo:#e4f9ff;@rad:10px;){
+    color: @color1;
+    padding: @pad;
+    background-color: @fondo;
+    border-radius: @rad;
+}
